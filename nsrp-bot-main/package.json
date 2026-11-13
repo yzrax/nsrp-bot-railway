@@ -1,0 +1,17 @@
+{
+  "name": "nsrp-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discord bot for Nevada State Roleplay (NSRP)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --env-file=.env --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1"
+  }
+}
